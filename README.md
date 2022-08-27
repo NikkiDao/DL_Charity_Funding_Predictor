@@ -1,4 +1,4 @@
-# Unit 21 Homework: Charity Funding Predictor
+# Deep Learning: Charity Funding Predictor
 
 ## Background
 
@@ -112,14 +112,4 @@ The report should contain the following:
     * What steps did you take in your attempts to increase model performance?
 
 3. **Summary**: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
-
-- - -
-
-## Rubric
-
-[Unit 21 Homework Rubric](https://docs.google.com/document/d/1SLOROX0lqZwa1ms-iRbHMQr1QSsMT2k0boO9YpFBnHA/edit?usp=sharing)
-
-- - - 
-
-© 2022 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.	
 

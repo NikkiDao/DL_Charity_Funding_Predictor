@@ -1,5 +1,5 @@
 # Deep Learning: Charity Funding Predictor
-<img align="center" src="/Images/deep learning.jpg" width="1000" />
+<img align="center" src="/Images/deep learning.jpg" width="800" />
 
 
 ## Analysis and Report:

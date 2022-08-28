@@ -30,7 +30,7 @@
     - Dropping more columns, increased the number of application types to include values >150, classification count > 200, change activation hidden layer from ***relu*** to ***tanh***. The accuracy did not reach 75%. Accuracy, in fact, decreased to 63% in optimization file.
  
 <img align="center" src="/Images/Optimaztion.png" width="600" />
-<img align="center" src="/Images/Optimaztion2.png" width="600" />
+<img align="center" src="/Images/Optimazation2.png" width="600" />
     
 
 3. **Summary**: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.

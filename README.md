@@ -22,7 +22,6 @@
     - Maximum 80 neurons, 3 layers, and reLU and Sigmoid were used. 
     - reLU (Rectified Linear Unitfunction) was used as a good starting point for modeling positive, nonlinear input data for classification or regression.
     - The sigmoid function values are normalized to a probability between 0 and 1, which is ideal for a binary classification dataset, in this case it's IS_SUCCESSFUL   and not. 
-    - 
 <img align="center" src="/Images/Compiling_Training_Evaluating Model.png" width="600" />
 <img align="center" src="/Images/Compiling_Training_Evaluating Model2.png" width="600" />
 

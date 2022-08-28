@@ -2,7 +2,7 @@
 
 ## Analysis and Report:
 
-1. ** Purpose** 
+1. **Purpose** 
 - Using Machine Learning and Neural Networks to apply target/features to help Alphabet Soup to select applicants with highest chance of success if funded. 
 
 2. **Results**:
@@ -20,16 +20,17 @@
     - Maximum 80 neurons, 3 layers, and reLU and Sigmoid were used. 
     - reLU (Rectified Linear Unitfunction) was used as a good starting point for modeling positive, nonlinear input data for classification or regression.
     - The sigmoid function values are normalized to a probability between 0 and 1, which is ideal for a binary classification dataset, in this case it's IS_SUCCESSFUL   and not. 
-<img src="/Images/Compiling_Training_Evaluating Model.png" width="128"/>
-<img src="/Images/Compiling_Training_Evaluating Model2.png" width="128"/>
+    - 
+<img src="../Images/Compiling_Training_Evaluating Model.png" width="128"/>
+<img src="../Images/Compiling_Training_Evaluating Model2.png" width="128"/>
 
     * Were you able to achieve the target model performance?
     - No, as it only result 72% accuracy
     * What steps did you take in your attempts to increase model performance?
     - Dropping more columns, increased the number of application types to include values >150, classification count > 200, change activation hidden layer from ***relu*** to ***tanh***. The accuracy did not reach 75%. Accuracy, in fact, decreased to 63% in optimization file.
     
-<img src="/Images/Optimaztion.png" width="128"/>
-<img src="/Images/Optimaztion2.png" width="128"/>   
+<img src="Images/Optimaztion.png" width="128"/>
+<img src="Images/Optimaztion2.png" width="128"/>   
     
 
 3. **Summary**: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.

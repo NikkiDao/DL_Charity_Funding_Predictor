@@ -18,11 +18,7 @@
       - EIN and NAME were removed.
   
 * Compiling, Training, and Evaluating the Model
-<p align="center">
-  <img src="/Images/Compiling_Training_Evaluating Model.png" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="/Images/Compiling_Training_Evaluating Model2.png" width="45%">
-</p>
+
     * How many neurons, layers, and activation functions did you select for your neural network model, and why?
       - Maximum 80 neurons, 3 layers, and reLU and Sigmoid were used. 
       - reLU (Rectified Linear Unitfunction) was used as a good starting point for modeling positive, nonlinear input data for classification or regression.
@@ -32,8 +28,15 @@
     * What steps did you take in your attempts to increase model performance?
       - Dropping more columns, increased the number of application types to include values >150, classification count > 200, change activation hidden layer from ***relu*** to ***tanh***. The accuracy did not reach 75%. Accuracy, in fact, decreased to 63% in optimization file.
  
+ * Before Optimization
+<img align="center" src="/Images/Compiling_Training_Evaluating Model.png" width="600" />
+<img align="center" src="/Images/Compiling_Training_Evaluating Model2.png" width="600" />
+ 
+ * Optimization
 <img align="center" src="/Images/Optimaztion.png" width="600" />
 <img align="center" src="/Images/Optimization2.png" width="600" />
+
+ 
     
 
 3. **Summary**: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.

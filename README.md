@@ -11,32 +11,32 @@
 
   * Data Preprocessing
     * What variable(s) are the target(s) for your model? 
-    -- IS_SUCCESSFUL is the target, where 1 indicated that the money was used successful and 0 is unsuccessful.
+      - IS_SUCCESSFUL is the target, where 1 indicated that the money was used successful and 0 is unsuccessful.
     * What variable(s) are the features for your model? 
-    -- All columns in data except EIN and NAME
+      - All columns in data except EIN and NAME
     * What variable(s) should be removed from the input data because they are neither targets nor features? 
-    -- EIN and NAME were removed.
+      - EIN and NAME were removed.
   
 * Compiling, Training, and Evaluating the Model
     * How many neurons, layers, and activation functions did you select for your neural network model, and why?
-    -- Maximum 80 neurons, 3 layers, and reLU and Sigmoid were used. 
-    -- reLU (Rectified Linear Unitfunction) was used as a good starting point for modeling positive, nonlinear input data for classification or regression.
-    -- The sigmoid function values are normalized to a probability between 0 and 1, which is ideal for a binary classification dataset, in this case it's IS_SUCCESSFUL   and not. 
 <img align="center" src="/Images/Compiling_Training_Evaluating Model.png" width="600" />
 <img align="center" src="/Images/Compiling_Training_Evaluating Model2.png" width="600" />
 
+      - Maximum 80 neurons, 3 layers, and reLU and Sigmoid were used. 
+      - reLU (Rectified Linear Unitfunction) was used as a good starting point for modeling positive, nonlinear input data for classification or regression.
+      - The sigmoid function values are normalized to a probability between 0 and 1, which is ideal for a binary classification dataset, in this case it's IS_SUCCESSFUL   and not. 
     * Were you able to achieve the target model performance?
-    -- No, as it only result 72% accuracy
+      - No, as it only result 72% accuracy
     * What steps did you take in your attempts to increase model performance?
-    -- Dropping more columns, increased the number of application types to include values >150, classification count > 200, change activation hidden layer from ***relu*** to ***tanh***. The accuracy did not reach 75%. Accuracy, in fact, decreased to 63% in optimization file.
+      - Dropping more columns, increased the number of application types to include values >150, classification count > 200, change activation hidden layer from ***relu*** to ***tanh***. The accuracy did not reach 75%. Accuracy, in fact, decreased to 63% in optimization file.
  
 <img align="center" src="/Images/Optimaztion.png" width="600" />
 <img align="center" src="/Images/Optimization2.png" width="600" />
     
 
 3. **Summary**: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
-- reLU and Sigmoid yields 72% accuracy, but reLu and Tanh function only yields 63%. 
-- Maybe try Random Forest next time, as it if less affected by outliers. Tanh was not a good try because the output of the tanh activation function is Zero centered; hence we can map the output values as strongly negative, neutral, or strongly positive. In this case there is no negative, only 1 and 0. 
+*  reLU and Sigmoid yields 72% accuracy, but reLu and Tanh function only yields 63%. 
+* Maybe try Random Forest next time, as it if less affected by outliers. Tanh was not a good try because the output of the tanh activation function is Zero centered; hence we can map the output values as strongly negative, neutral, or strongly positive. In this case there is no negative, only 1 and 0. 
 
 
 ## Background

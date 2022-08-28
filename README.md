@@ -19,8 +19,17 @@
   
 * Compiling, Training, and Evaluating the Model
     * How many neurons, layers, and activation functions did you select for your neural network model, and why?
-<img align="center" src="/Images/Compiling_Training_Evaluating Model.png" width="600" />
-<img align="center" src="/Images/Compiling_Training_Evaluating Model2.png" width="600" />
+
+<table>
+  <tr>
+    <td>ReLU and Sigmoid</td>
+     <td>Accuracy</td>
+  </tr>
+  <tr>
+    <td><img src="/Images/Compiling_Training_Evaluating Model.png"" width=270 height=480></td>
+    <td><img src="/Images/Compiling_Training_Evaluating Model2.png"g" width=270 height=480></td>
+  </tr>
+ </table>
 
       - Maximum 80 neurons, 3 layers, and reLU and Sigmoid were used. 
       - reLU (Rectified Linear Unitfunction) was used as a good starting point for modeling positive, nonlinear input data for classification or regression.

@@ -18,22 +18,15 @@
       - EIN and NAME were removed.
   
 * Compiling, Training, and Evaluating the Model
+<p align="center">
+  <img src="/Images/Compiling_Training_Evaluating Model.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="/Images/Compiling_Training_Evaluating Model2.png" width="45%">
+</p>
     * How many neurons, layers, and activation functions did you select for your neural network model, and why?
-
-<table>
-  <tr>
-    <td>ReLU and Sigmoid</td>
-     <td>Accuracy</td>
-  </tr>
-  <tr>
-    <td><img src="/Images/Compiling_Training_Evaluating Model.png"" width=270 height=480></td>
-    <td><img src="/Images/Compiling_Training_Evaluating Model2.png"g" width=270 height=480></td>
-  </tr>
- </table>
-
       - Maximum 80 neurons, 3 layers, and reLU and Sigmoid were used. 
       - reLU (Rectified Linear Unitfunction) was used as a good starting point for modeling positive, nonlinear input data for classification or regression.
-      - The sigmoid function values are normalized to a probability between 0 and 1, which is ideal for a binary classification dataset, in this case it's IS_SUCCESSFUL   and not. 
+      - The sigmoid function values are normalized to a probability between 0 and 1, which is ideal for a binary classification dataset, in this case it's IS_SUCCESSFUL and not. 
     * Were you able to achieve the target model performance?
       - No, as it only result 72% accuracy
     * What steps did you take in your attempts to increase model performance?
